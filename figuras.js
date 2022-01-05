@@ -96,6 +96,6 @@ function elCirculo() {
   const pererimetro = perimetroCirculo(valorr);
   const aaarea = areaCirculo(valorr);
   const diaametro = diametroCirculo(valorr)
-  alert("El perimetro del círuclo es " + pererimetro + " y el área es " + aaarea + ". El diametro es " + diaametro);
+  alert("El perimetro del círculo es " + pererimetro + " y el área es " + aaarea + ". El diametro es " + diaametro);
 
 }
