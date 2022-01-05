@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GEOMETRYLATOR</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link  rel="icon"   href="Archivos/LOGO.ico" type="image/png" />
+</head>
+<body>
+<header class="sup">
+    <img class="logoo" src="./Archivos/LOGO.icos" alt="" class="foto">
+    <h1 class="Titulo" id="Titulo">
+        GEOMETRYLATOR
+    </h1>
+</header>
+    <div>    <p id="Subtitulo">Calculadora de areas y perimetros.</p>
+    </div>
+<section class="Cuadrado">
+    <h2>Calcula el área y perimetro de un cuadrado</h2>
+    <form action="">
+        <label for="InputCuadrado" class="TextInp">
+            Escribe cuánto mide cada lado de tu cuadrado:
+        </label>
+        <input class="Caja" id="InputCuadrado" type="number" placeholder="Lado del cuadrado">
+        <button class="boton" type="button" onclick="calcularAreaCuadrado()">
+            <img src="./Archivos/Area cuadrado.png" alt="" class="foto">
+        </button>
+        <button class="boton" type="button" onclick="calcularPerimetroCuadrado()">
+            <img src="./Archivos/Perimetro cuadrado.png " alt="" class="foto">
+        </button>
+    </form>
+</section>
+<section class="Triangulo">
+    <h2>Calcula el área y perimetro de un triángulo</h2>
+    <form action="">
+        <label for="InputTriangulo" class="TextInp">
+            Escribe las medidas de tu triangulo:
+        </label>
+        <input class="Caja1" id="InputTriangulo1" type="number" placeholder="Lado 1" />
+        <input class="Caja1" id="InputTriangulo2" type="number" placeholder="Lado 2" />
+        <input class="Caja1" id="InputTriangulobase" type="number" placeholder="Base" />
+        <input class="Caja1" id="InputTrianguloAltura" type="number" placeholder="Altura" />
+
+        <button class="boton" type="button" onclick="calcularTriangulo()">
+            <img src="./Archivos/Triangulo.png" alt="" class="foto">
+        </button>
+    </form>
+</section>
+</section>
+<section class="Circulo">
+    <h2>Calcula el área y perimetro de un círculo</h2>
+    <form action="">
+        <label for="InputRadio" class="TextInp">
+            Escribe cuánto mide cada lado de tu cuadrado:
+        </label>
+        <input class="Caja" id="InputRadio" type="number" placeholder="Radio del círculo">
+        <button class="boton" type="button" onclick="elCirculo()">
+            <img src="./Archivos/Circulo.png" alt="" class="foto">
+        </button>
+    </form>
+</section>
+
+<footer class="pies">
+    <p>Versión beta 1.0          |             By: <a class="pies" href="" target="_blank"> Rodr1</a></p>
+</footer>
+    <script src="./figuras.js"></script>
+</body>
+</html>
