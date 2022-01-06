@@ -2,131 +2,269 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Roboto:wght@300;400;700&family=Shizuru&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Roboto:wght@300;400;700&family=Shizuru&display=swap');
 
+@media(max-width:1449px){
+    html, body  {
+        font-size: 62.5%;
+        height: 100%;
+        background-color: #171717;
+    }
 
-html, body  {
-    height: 100%;
-    background-color: #171717;
-}
-.sup {
-    display: flex;
-    justify-content: center;    
-}
-.logoo {
-    width: 15m;
-    height: 15em;
-}
-.Titulo {
-    font-family: 'Roboto', sans-serif;    
-    font-size: 6em;
-    color: gold;
-    margin-bottom: 0;
-    margin-top: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-h2 {
-    color: gold;
-    padding-left: 1em;
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 2em;
+    .sup {
+        display: flex;
+        justify-content: center;    
+        text-align: center;
+        background-color: rgba(255, 255, 255, 0.021);
+        width: 100%;
+        max-height: 100%;
+    }
+    .logoo {
+        width: 6rem;
+        height: 6rem;
+        padding-top: 0rem;
+    }
+    .Titulo {
+        font-family: 'Roboto', sans-serif;    
+        font-size: 3rem;
+        color: gold;
+        margin-bottom: 0;
+        margin-top: 0rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    h2 {
+        color: gold;
+        padding-left: 1rem;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 2rem;
+    
+    }
+    #Subtitulo {
+        color: gold;
+        margin-left: 29%;
+        margin-top: -3%;
+        font-size: 1.5rem;
+        display: flex;
+        line-height: 0;}
 
+    .TextInp{
+        font-size: 0rem;
+        font-family: 'Josefin Sans', sans-serif;
+        padding-right: 0.2rem  ;
+    }
+    .Cuadrado{
+        border-style: solid;
+        border-color: gold;
+        border-width: 0.2rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        margin-top: 4rem;
+        border-radius: 0.8rem;
+    }
+    .Triangulo{
+        border-style: solid;
+        border-color: gold;
+        border-width: 0.2rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        margin-top: 2rem;
+        border-radius: 0.8rem;
+    }
+    .Caja{
+        background-color: rgb(22, 22, 22);
+        border-width: 0.2rem;
+        border-color: #ffd700;
+        max-width: 80%;
+        height: 3rem;
+        border-radius: 0.4rem;
+        color: gold;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 1rem;
+        margin-left: 1rem;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        vertical-align: middle;
+    }
+    .boton{
+        margin-left: 1.5rem;
+        padding: 0rem;
+        align-items: center;
+        margin-bottom: 1rem;
+        background-color: #171717;
+        border-width: 0ch;
+    }
+    .foto{
+        width: 10rem;
+        height: 10rem;
+        margin-top: 6%;
+    }
+    .Caja1{
+        background-color: rgb(22, 22, 22);
+        border-width: 0.2rem;
+        border-color: #ffd700;
+        width: 5rem;
+        height: 3rem;
+        border-radius: 0.4rem;
+        color: gold;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 1rem;
+        margin-left: 1rem;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        margin-top: 2%;
+    }
+    
+    .Circulo{
+        border-style: solid;
+        border-color: gold;
+        border-width: 0.2rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        margin-top: 3rem;
+        border-radius: 0.8rem;
+    }
+    .pies {
+        color: gold;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 1rem;
+    }
 }
-#Subtitulo {
-    color: gold;
-    margin-left: 25em;
-    margin-top: -2em;
-    font-size: 2em;
-    display: flex;
-    line-height: 0;}
-form {
-    color: gold;
-}
-.TextInp{
-    font-size: 2.5em;
-    font-family: 'Josefin Sans', sans-serif;
-    padding-right: 0.2em  ;
-}
-.Cuadrado{
-    border-style: solid;
-    border-color: gold;
-    border-width: 0.2em;
-    margin-left: 2em;
-    margin-right: 2em;
-    margin-top: 4em;
-    border-radius: 0.8em;
-}
-form {
-    margin-bottom: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.Triangulo{
-    border-style: solid;
-    border-color: gold;
-    border-width: 0.2em;
-    margin-left: 2em;
-    margin-right: 2em;
-    margin-top: 2em;
-    border-radius: 0.8em;
-}
-.Caja{
-    background-color: rgb(22, 22, 22);
-    border-width: 0.2em;
-    border-color: #ffd700;
-    width: 10em;
-    height: 3em;
-    border-radius: 0.4em;
-    color: gold;
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 1em;
-    margin-left: 1em;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-}
-.boton{
-    margin-left: 1.5em;
-    padding: 0em;
-    align-items: center;
-    margin-bottom: 1em;
-    background-color: #171717;
-    border-width: 0ch;
-}
-.foto{
-    width: 18em;
-    height: 18em;
-}
-.Caja1{
-    background-color: rgb(22, 22, 22);
-    border-width: 0.2em;
-    border-color: #ffd700;
-    width: 5em;
-    height: 3em;
-    border-radius: 0.4em;
-    color: gold;
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 1em;
-    margin-left: 1em;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-}
-
-.Circulo{
-    border-style: solid;
-    border-color: gold;
-    border-width: 0.2em;
-    margin-left: 2em;
-    margin-right: 2em;
-    margin-top: 3em;
-    border-radius: 0.8em;
-}
-.pies {
-    color: gold;
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 1em;
+@media(min-width:1500px) and (max-width:10000px){
+    html, body  {
+        font-size: 62.5%;
+        height: 100%;
+        background-color: #171717;
+    }
+    .sup {
+        display: flex;
+        justify-content: center;    
+    }
+    .logoo {
+        width: 15m;
+        height: 15rem;
+    }
+    .Titulo {
+        font-family: 'Roboto', sans-serif;    
+        font-size: 9rem;
+        color: gold;
+        margin-bottom: 0;
+        margin-top: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    h2 {
+        color: gold;
+        padding-left: 1rem;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 2.5rem;
+    
+    }
+    #Subtitulo {
+        color: gold;
+        margin-left: 41%;
+        margin-top: -1.5%;
+        font-size: 4rem;
+        display: flex;
+        line-height: 0;
+    }
+    form {
+        color: gold;
+    }
+    .TextInp{
+        font-size: 4rem;
+        font-family: 'Josefin Sans', sans-serif;
+        padding-right: 0.2rem  ;
+    }
+    .Cuadrado{
+        border-style: solid;
+        border-color: gold;
+        border-width: 0.2rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        margin-top: 4rem;
+        border-radius: 0.8rem;
+    }
+    form {
+        margin-bottom: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .Triangulo{
+        border-style: solid;
+        border-color: gold;
+        border-width: 0.2rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        margin-top: 2rem;
+        border-radius: 0.8rem;
+    }
+    .Caja{
+        background-color: rgb(22, 22, 22);
+        border-width: 0.2rem;
+        border-color: #ffd700;
+        width: 17rem;
+        height: 4rem;
+        border-radius: 0.4rem;
+        color: gold;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 1.8rem;
+        margin-left: 1rem;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .boton{
+        margin-left: 1.5rem;
+        padding: 0rem;
+        align-items: center;
+        margin-bottom: 1rem;
+        background-color: #171717;
+        border-width: 0ch;
+    }
+    .foto{
+        width: 28rem;
+        height: 28rem;
+    }
+    .Caja1{
+        background-color: rgb(22, 22, 22);
+        border-width: 0.2rem;
+        border-color: #ffd700;
+        width: 8rem;
+        height: 3rem;
+        border-radius: 0.4rem;
+        color: gold;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 2rem;
+        margin-left: 2rem;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .Circulo{
+        border-style: solid;
+        border-color: gold;
+        border-width: 0.2rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        margin-top: 3rem;
+        border-radius: 0.8rem;
+    }
+    .pies {
+        color: gold;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 1rem;
+    }
 }
