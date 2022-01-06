@@ -105,5 +105,3 @@ dist
 
 # configuración de visual studio code
 .vscode
-
-!/README.md
