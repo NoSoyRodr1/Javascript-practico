@@ -231,7 +231,7 @@
         flex-direction: column;
     }
     .boton{
-        padding: 0rem;
+        padding: 0px;
         align-items: center;
         margin-bottom: 1%;
         background-color: #171717;
